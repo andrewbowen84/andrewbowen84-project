@@ -1,0 +1,11 @@
+.header {
+  background-image: url('images/header_background.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    font-weight: 300;
+  }
