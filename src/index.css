@@ -1,0 +1,27 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    color: white;
+    margin: 20px;
+    background: url(images/header-background.jpg); 
+  }
+ol, ul {
+  padding-left: 30px;
+}
+img{
+  max-width: 100%;
+  max-height: 168px;
+}
+#nav{
+  background-color: black;
+}
+.overlay{
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.visible_color{
+  color: goldenrod;
+}
