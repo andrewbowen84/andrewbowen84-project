@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import turin from './images/turin.JPG';
-import children_of_hurin from './images/children_of_hurin.jpg';
-import navbar_background from './images/navbar_background.jpg';
-import turin_2 from './images/turin_2.jpg';
+import Youtube from './youtube';
 
 /*
   <div class="container features">
@@ -26,23 +23,9 @@ class Categories extends React.Component{
 } export default Categories;
 function Photos(props){
   return(
-    <div>    
-      <p className='visible_color'>Turin</p>
-      <a href='./details'>
-        <img src={turin} alt='Turin'/>;
-      </a>
-      <a href='./details'>
-        <img src={children_of_hurin} alt="Children of Hurin"/>
-      </a>
-      <p className='visible_color'>LotR Landscapes</p>
-      <a href='./details'>
-        <img src={navbar_background} alt='Background'/>
-      </a>
-      <a href='./details'>
-        <img src={turin_2} alt='Turin 2'/>
-      </a>
+    <div>
+      <Youtube />
     </div>
-    
   );
 }
 const element = <Categories name="Test" />;
