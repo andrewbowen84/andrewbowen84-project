@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+Progressive Web App that uses React Framework and the YouTube API to dynamicall pull the most recent videos from a particular YouTube Channel. 
+
 ## Available Scripts
 
 In the project directory, you can run:
